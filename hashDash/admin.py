@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import creator, dashCode, dashboard
+
+admin.site.register(dashboard)
+admin.site.register(dashCode)
+admin.site.register(creator)
